@@ -1,0 +1,341 @@
+
+rosem@DESKTOP-L5MSUA0 MINGW64 ~
+$ curl
+curl: try 'curl --help' or 'curl --manual' for more information
+
+rosem@DESKTOP-L5MSUA0 MINGW64 ~
+$ curl --help
+Usage: curl [options...] <url>
+ -d, --data <data>   HTTP POST data
+ -f, --fail          Fail silently (no output at all) on HTTP errors
+ -h, --help <category>  Get help for commands
+ -i, --include       Include protocol response headers in the output
+ -o, --output <file>  Write to file instead of stdout
+ -O, --remote-name   Write output to a file named as the remote file
+ -s, --silent        Silent mode
+ -T, --upload-file <file>  Transfer local FILE to destination
+ -u, --user <user:password>  Server user and password
+ -A, --user-agent <name>  Send User-Agent <name> to server
+ -v, --verbose       Make the operation more talkative
+ -V, --version       Show version number and quit
+
+This is not the full help, this menu is stripped into categories.
+Use "--help category" to get an overview of all categories.
+For all options use the manual or "--help all".
+
+rosem@DESKTOP-L5MSUA0 MINGW64 ~
+$ curl https://ndawn.ndsu.nodak.edu//
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>NDAWN - North Dakota Agricultural Weather Network</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-78735593-1', 'auto');
+   ga('send', 'pageview');
+  </script>
+  <link href="/jquery-ui.min.css" rel="stylesheet" type="text/css">
+  <link href="/ndawn-min.css" rel="stylesheet" type="text/css">
+  <script defer src="/jquery.min.js"></script>
+  <script defer src="/jquery-ui.min.js"></script>
+  <script defer src="/ndawn-min.js"></script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+ </head>
+ <body>
+  <div class="printhide" id="page-top">
+   <div id="page-top-row">
+    <div id="page-top-logo"><a href="/"><img alt="NDAWN Logo" height="46" width="364" src="/ndawn.png"></a></div>
+    <div id="page-top-links-holder">
+     <div id="page-top-links-bg">
+      <div id="page-top-links">
+       <a href="https://www.ndsu.edu">NDSU</a>
+       <a href="https://www.ag.ndsu.edu/ndsuag/">NDSU Agriculture</a>
+       <a href="https://www.ndsu.edu/snrs/">NDSU School of<br>Natural Resource Sciences</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="printhide" id="empty-bread-crumb-trail"></div>
+  <div id="menu-and-contents">
+   <div class="printhide" id="menu">
+    <ul>
+     <li class="selected">
+      <a>NDAWN</a>
+      <ul class="sub-menu">
+       <li class="selected"><a href="/">Home</a></li>
+       <li><a href="https://www.twitter.com/NDAWNmesonet">Follow us on Twitter<img alt="" height="11" width="14" src="/twitter.png"></a></li>
+       <li><a href="/contact-us.html">Contact Us</a></li>
+      </ul>
+     </li>
+     <li>
+      <a>Help</a>
+      <ul class="sub-menu">
+       <li><a href="/help-overview.html">Overview</a></li>
+       <li><a href="/help-data.html">Data Information</a></li>
+       <li><a href="/help-equipment.html">Station Site and<br>Equipment Decription</a></li>
+       <li><a href="/help-barley-growing-degree-days.html">Barley GDD</a></li>
+       <li><a href="/help-canola-growing-degree-days.html">Canola GDD</a></li>
+       <li><a href="/help-corn-growing-degree-days.html">Corn GDD</a></li>
+       <li><a href="/help-heating-cooling-degree-days.html">Heating/Cooling DD</a></li>
+       <li><a href="/help-soybean-growing-degree-days.html">Soybean GDD</a></li>
+       <li><a href="/help-sugarbeet-growing-degree-days.html">Sugarbeet GDD</a></li>
+       <li><a href="/help-sugarbeet-cercospora.html">Sugarbeet Cercospora</a></li>
+       <li><a href="/help-sugarbeet-herbicide-timing.html">Sugarbeet Herbicide<br>Timing</a></li>
+       <li><a href="/help-sugarbeet-root-maggot.html">Sugarbeet Root Maggot</a></li>
+       <li><a href="/help-sunflower-growing-degree-days.html">Sunflower GDD</a></li>
+       <li><a href="/help-wheat-growing-degree-days.html">Wheat GDD</a></li>
+      </ul>
+     </li>
+     <li>
+      <a>Weather Data</a>
+      <ul class="sub-menu">
+       <li><a href="/current.html">Current</a></li>
+       <li><a href="/weather-data-hourly.html">Hourly</a></li>
+       <li><a href="/weather-data-daily.html">Daily</a></li>
+       <li><a href="/weather-data-weekly.html">Weekly</a></li>
+       <li><a href="/weather-data-monthly.html">Monthly</a></li>
+       <li><a href="/weather-data-yearly.html">Yearly</a></li>
+       <li><a href="/weather-data-nws-daily-normals.html">NWS Daily Normals</a></li>
+       <li><a href="/weather-data-nws-monthly-normals.html">NWS Monthly Normals</a></li>
+       <li><a href="/monthly-report.html">Monthly Report</a></li>
+       <li><a href="/deep-soil-temperatures.html">Deep Soil Temperatures</a></li>
+       <li><a href="/soil-moisture.html">Soil Moisture</a></li>
+      </ul>
+     </li>
+     <li>
+      <a>Applications</a>
+      <ul class="sub-menu">
+       <li><a href="/tools.html">List of Ag Tools</a></li>
+       <li><a href="/barley-growing-degree-days.html">Barley GDD</a></li>
+       <li><a href="/canola-growing-degree-days.html">Canola GDD</a></li>
+       <li><a href="https://www.ag.ndsu.edu/sclerotinia/">Canola Sclerotinia<span class="ui-button-icon-primary ui-icon ui-icon-extlink"></span></a></li>
+       <li><a href="/corn-growing-degree-days.html">Corn GDD</a></li>
+       <li><a href="/potato-late-blight.html">Potato Late Blight,<br>Early Blight,<br>and P-Days</a></li>
+       <li><a href="/soybean-growing-degree-days.html">Soybean GDD</a></li>
+       <li><a href="/sugarbeet-cercospora.html">Sugarbeet Cercospora</a></li>
+       <li><a href="/sugarbeet-cercospora-summary.html">Sugarbeet Cercospora<br>Summaries</a></li>
+       <li><a href="/sugarbeet-herbicide-timing.html">Sugarbeet Herbicide<br>Timing Using GDD</a></li>
+       <li><a href="/sugarbeet-root-maggot.html">Sugarbeet Root Maggot</a></li>
+       <li><a href="/sugarbeet-growing-degree-days.html">Sugarbeet GDD</a></li>
+       <li><a href="/sugarbeet-gdd-multiple-planting-dates.html">Sugarbeet GDD Multiple<br>Planting Dates</a></li>
+       <li><a href="/sunflower-growing-degree-days.html">Sunflower GDD</a></li>
+       <li><a href="/wheat-growing-degree-days.html">Wheat GDD/Midge DD</a></li>
+       <li><a href="/wheat-gdd-multiple-planting-dates.html">Wheat GDD Multiple<br>Planting Dates</a></li>
+       <li><a href="https://www.ag.ndsu.edu/cropdisease/">Wheat &amp; Small Grains<br>Disease Forecaster<span class="ui-button-icon-primary ui-icon ui-icon-extlink"></span></a></li>
+       <li><a href="/crop-water-use.html">Crop Water Use</a></li>
+       <li><a href="/irrsched-crop-view-form.html">Irrigation Scheduler</a></li>
+       <li><a href="/insect-degree-days.html">Insect DD</a></li>
+       <li><a href="/heating-cooling-degree-days.html">Heating/Cooling DD</a></li>
+      </ul>
+     </li>
+     <li>
+      <a>Account</a>
+      <ul class="sub-menu">
+       <li><a href="/login-form.html">Log in to NDAWN</a></li>
+      </ul>
+     </li>
+    </ul>
+    <div id="menu-fade"></div>
+   </div>
+   <div class="content" id="content-front">
+    <map id="station-map" name="station-map">
+     <area shape="rect" coords="651,205,674,211" title="Ada 1N" alt="Ada 1N" href="/station-info.html?station=78">
+     <area shape="rect" coords="547,76,581,82" title="Adams 5N" alt="Adams 5N" href="/station-info.html?station=111">
+     <area shape="rect" coords="134,74,165,80" title="Alamo 2S" alt="Alamo 2S" href="/station-info.html?station=98">
+     <area shape="rect" coords="625,104,665,110" title="Alvarado 4N" alt="Alvarado 4N" href="/station-info.html?station=174">
+     <area shape="rect" coords="141,295,180,301" title="Amidon 1NE" alt="Amidon 1NE" href="/station-info.html?station=142">
+     <area shape="rect" coords="151,135,190,141" title="Arnegard 9N" alt="Arnegard 9N" href="/station-info.html?station=138">
+     <area shape="rect" coords="554,231,581,237" title="Ayr 1NW" alt="Ayr 1NW" href="/station-info.html?station=161">
+     <area shape="rect" coords="401,113,432,119" title="Baker 1N" alt="Baker 1N" href="/station-info.html?station=9">
+     <area shape="rect" coords="114,263,144,269" title="Beach 9S" alt="Beach 9S" href="/station-info.html?station=10">
+     <area shape="rect" coords="841,415,876,421" title="Becker 1W" alt="Becker 1W" href="/station-info.html?station=118">
+     <area shape="rect" coords="248,87,293,93" title="Berthold 5NW" alt="Berthold 5NW" href="/station-info.html?station=56">
+     <area shape="rect" coords="325,37,373,43" title="Bottineau 14W" alt="Bottineau 14W" href="/station-info.html?station=12">
+     <area shape="rect" coords="220,38,260,44" title="Bowbells 1N" alt="Bowbells 1N" href="/station-info.html?station=58">
+     <area shape="rect" coords="129,323,170,329" title="Bowman 4W" alt="Bowman 4W" href="/station-info.html?station=13">
+     <area shape="rect" coords="538,346,593,352" title="Brampton 2WSW" alt="Brampton 2WSW" href="/station-info.html?station=84">
+     <area shape="rect" coords="48,152,91,158" title="Brorson 5NW" alt="Brorson 5NW" href="/station-info.html?station=7">
+     <area shape="rect" coords="662,340,708,346" title="Campbell 3SE" alt="Campbell 3SE" href="/station-info.html?station=87">
+     <area shape="rect" coords="426,81,462,87" title="Cando 2SE" alt="Cando 2SE" href="/station-info.html?station=14">
+     <area shape="rect" coords="446,182,492,188" title="Carrington 4N" alt="Carrington 4N" href="/station-info.html?station=15">
+     <area shape="rect" coords="282,300,325,306" title="Carson 9ENE" alt="Carson 9ENE" href="/station-info.html?station=96">
+     <area shape="rect" coords="543,35,592,41" title="Cavalier 4NNW" alt="Cavalier 4NNW" href="/station-info.html?station=16">
+     <area shape="rect" coords="62,140,127,146" title="Charbonneau 5NW" alt="Charbonneau 5NW" href="/station-info.html?station=137">
+     <area shape="rect" coords="781,338,822,344" title="Clarissa 1SE" alt="Clarissa 1SE" href="/station-info.html?station=124">
+     <area shape="rect" coords="444,47,480,53" title="Clyde 4SW" alt="Clyde 4SW" href="/station-info.html?station=143">
+     <area shape="rect" coords="482,195,538,201" title="Cooperstown 3W" alt="Cooperstown 3W" href="/station-info.html?station=85">
+     <area shape="rect" coords="455,208,502,214" title="Courtenay 5W" alt="Courtenay 5W" href="/station-info.html?station=140">
+     <area shape="rect" coords="194,119,247,125" title="Crane Creek 1E" alt="Crane Creek 1E" href="/station-info.html?station=134">
+     <area shape="rect" coords="479,123,507,129" title="Crary 1E" alt="Crary 1E" href="/station-info.html?station=18">
+     <area shape="rect" coords="180,162,206,168" title="Croff 3E" alt="Croff 3E" href="/station-info.html?station=136">
+     <area shape="rect" coords="144,40,178,46" title="Crosby 7S" alt="Crosby 7S" href="/station-info.html?station=65">
+     <area shape="rect" coords="550,51,590,57" title="Crystal 4NW" alt="Crystal 4NW" href="/station-info.html?station=104">
+     <area shape="rect" coords="34,70,84,76" title="Dagmar 7WSW" alt="Dagmar 7WSW" href="/station-info.html?station=99">
+     <area shape="rect" coords="511,225,541,231" title="Dazey 2E" alt="Dazey 2E" href="/station-info.html?station=19">
+     <area shape="rect" coords="366,188,407,194" title="Denhoff 1NE" alt="Denhoff 1NE" href="/station-info.html?station=129">
+     <area shape="rect" coords="173,249,222,255" title="Dickinson 1NW" alt="Dickinson 1NW" href="/station-info.html?station=20">
+     <area shape="rect" coords="63,30,96,36" title="Dooley 3S" alt="Dooley 3S" href="/station-info.html?station=101">
+     <area shape="rect" coords="176,203,211,209" title="Dunn 1SW" alt="Dunn 1SW" href="/station-info.html?station=81">
+     <area shape="rect" coords="475,311,517,317" title="Edgeley 4SW" alt="Edgeley 4SW" href="/station-info.html?station=21">
+     <area shape="rect" coords="487,76,530,82" title="Edmore 3NW" alt="Edmore 3NW" href="/station-info.html?station=97">
+     <area shape="rect" coords="601,289,616,295" title="Ekre" alt="Ekre" href="/station-info.html?station=75">
+     <area shape="rect" coords="640,166,673,172" title="Eldred 2W" alt="Eldred 2W" href="/station-info.html?station=2">
+     <area shape="rect" coords="580,133,619,139" title="Emerado 2E" alt="Emerado 2E" href="/station-info.html?station=172">
+     <area shape="rect" coords="122,99,159,105" title="Epping 2SE" alt="Epping 2SE" href="/station-info.html?station=139">
+     <area shape="rect" coords="607,251,639,257" title="Fargo NW" alt="Fargo NW" href="/station-info.html?station=23">
+     <area shape="rect" coords="526,268,558,274" title="Fingal 4W" alt="Fingal 4W" href="/station-info.html?station=62">
+     <area shape="rect" coords="565,174,606,180" title="Finley 1NNW" alt="Finley 1NNW" href="/station-info.html?station=86">
+     <area shape="rect" coords="516,99,581,105" title="Forest River 7WNW" alt="Forest River 7WNW" href="/station-info.html?station=24">
+     <area shape="rect" coords="332,338,378,344" title="Fort Yates 2W" alt="Fort Yates 2W" href="/station-info.html?station=89">
+     <area shape="rect" coords="122,25,157,31" title="Fortuna 4N" alt="Fortuna 4N" href="/station-info.html?station=126">
+     <area shape="rect" coords="712,34,738,40" title="Fox 4NE" alt="Fox 4NE" href="/station-info.html?station=93">
+     <area shape="rect" coords="60,103,87,109" title="Froid 5S" alt="Froid 5S" href="/station-info.html?station=90">
+     <area shape="rect" coords="567,223,622,229" title="Galesburg 4SSW" alt="Galesburg 4SSW" href="/station-info.html?station=25">
+     <area shape="rect" coords="257,167,306,173" title="Garrison 13NW" alt="Garrison 13NW" href="/station-info.html?station=83">
+     <area shape="rect" coords="316,121,348,127" title="Genoa 3S" alt="Genoa 3S" href="/station-info.html?station=107">
+     <area shape="rect" coords="648,251,690,257" title="Glyndon 1SE" alt="Glyndon 1SE" href="/station-info.html?station=156">
+     <area shape="rect" coords="573,86,614,92" title="Grafton 10E" alt="Grafton 10E" href="/station-info.html?station=77">
+     <area shape="rect" coords="568,141,621,147" title="Grand Forks 3S" alt="Grand Forks 3S" href="/station-info.html?station=26">
+     <area shape="rect" coords="651,51,701,57" title="Greenbush 7W" alt="Greenbush 7W" href="/station-info.html?station=70">
+     <area shape="rect" coords="120,50,157,56" title="Grenora 8N" alt="Grenora 8N" href="/station-info.html?station=127">
+     <area shape="rect" coords="391,158,431,164" title="Harvey 2SW" alt="Harvey 2SW" href="/station-info.html?station=27">
+     <area shape="rect" coords="140,126,188,132" title="Hawkeye 3NW" alt="Hawkeye 3NW" href="/station-info.html?station=132">
+     <area shape="rect" coords="265,205,298,211" title="Hazen 2W" alt="Hazen 2W" href="/station-info.html?station=28">
+     <area shape="rect" coords="189,343,232,349" title="Hettinger NW" alt="Hettinger NW" href="/station-info.html?station=29">
+     <area shape="rect" coords="591,209,634,215" title="Hillsboro 7SE" alt="Hillsboro 7SE" href="/station-info.html?station=30">
+     <area shape="rect" coords="148,109,175,115" title="Hofflund" alt="Hofflund" href="/station-info.html?station=31">
+     <area shape="rect" coords="580,197,611,203" title="Hope 5NE" alt="Hope 5NE" href="/station-info.html?station=102">
+     <area shape="rect" coords="752,260,795,266" title="Hubbard 1SE" alt="Hubbard 1SE" href="/station-info.html?station=119">
+     <area shape="rect" coords="616,27,664,33" title="Humboldt 4SW" alt="Humboldt 4SW" href="/station-info.html?station=4">
+     <area shape="rect" coords="539,113,576,119" title="Inkster 3W" alt="Inkster 3W" href="/station-info.html?station=80">
+     <area shape="rect" coords="457,248,511,254" title="Jamestown 10W" alt="Jamestown 10W" href="/station-info.html?station=33">
+     <area shape="rect" coords="338,111,380,117" title="Karlsruhe 2N" alt="Karlsruhe 2N" href="/station-info.html?station=59">
+     <area shape="rect" coords="568,159,611,165" title="Kempton 6SE" alt="Kempton 6SE" href="/station-info.html?station=105">
+     <area shape="rect" coords="623,62,665,68" title="Kennedy 6W" alt="Kennedy 6W" href="/station-info.html?station=82">
+     <area shape="rect" coords="496,48,535,54" title="Langdon 1E" alt="Langdon 1E" href="/station-info.html?station=34">
+     <area shape="rect" coords="588,272,626,278" title="Leonard 5N" alt="Leonard 5N" href="/station-info.html?station=72">
+     <area shape="rect" coords="226,142,257,148" title="Liberty 5E" alt="Liberty 5E" href="/station-info.html?station=135">
+     <area shape="rect" coords="370,309,400,315" title="Linton 5N" alt="Linton 5N" href="/station-info.html?station=35">
+     <area shape="rect" coords="538,299,571,305" title="Lisbon 2W" alt="Lisbon 2W" href="/station-info.html?station=76">
+     <area shape="rect" coords="805,354,852,360" title="Little Falls 6SE" alt="Little Falls 6SE" href="/station-info.html?station=120">
+     <area shape="rect" coords="541,151,596,157" title="Logan Center 2E" alt="Logan Center 2E" href="/station-info.html?station=141">
+     <area shape="rect" coords="419,132,460,138" title="Maddock 2N" alt="Maddock 2N" href="/station-info.html?station=109">
+     <area shape="rect" coords="319,267,356,273" title="Mandan 2S" alt="Mandan 2S" href="/station-info.html?station=36">
+     <area shape="rect" coords="512,284,544,290" title="Marion 2S" alt="Marion 2S" href="/station-info.html?station=79">
+     <area shape="rect" coords="681,124,723,130" title="Mavie 3WSW" alt="Mavie 3WSW" href="/station-info.html?station=71">
+     <area shape="rect" coords="569,184,606,190" title="Mayville 2E" alt="Mayville 2E" href="/station-info.html?station=37">
+     <area shape="rect" coords="487,163,527,169" title="McHenry 8N" alt="McHenry 8N" href="/station-info.html?station=38">
+     <area shape="rect" coords="152,180,217,186" title="Medicine Hole 9NW" alt="Medicine Hole 9NW" href="/station-info.html?station=130">
+     <area shape="rect" coords="497,132,540,138" title="Michigan 2W" alt="Michigan 2W" href="/station-info.html?station=73">
+     <area shape="rect" coords="295,107,323,113" title="Minot 4S" alt="Minot 4S" href="/station-info.html?station=40">
+     <area shape="rect" coords="275,50,309,56" title="Mohall 1W" alt="Mohall 1W" href="/station-info.html?station=41">
+     <area shape="rect" coords="585,323,632,329" title="Mooreton 3SW" alt="Mooreton 3SW" href="/station-info.html?station=54">
+     <area shape="rect" coords="222,304,246,310" title="Mott 1N" alt="Mott 1N" href="/station-info.html?station=69">
+     <area shape="rect" coords="439,104,470,110" title="Niles 3SE" alt="Niles 3SE" href="/station-info.html?station=113">
+     <area shape="rect" coords="184,49,220,55" title="Noonan 9S" alt="Noonan 9S" href="/station-info.html?station=128">
+     <area shape="rect" coords="530,334,561,340" title="Oakes 4S" alt="Oakes 4S" href="/station-info.html?station=43">
+     <area shape="rect" coords="712,304,750,310" title="Ottertail 1W" alt="Ottertail 1W" href="/station-info.html?station=103">
+     <area shape="rect" coords="713,326,780,332" title="Parkers Prairie 2NW" alt="Parkers Prairie 2NW" href="/station-info.html?station=116">
+     <area shape="rect" coords="496,148,529,154" title="Pekin 2NE" alt="Pekin 2NE" href="/station-info.html?station=88">
+     <area shape="rect" coords="708,282,750,288" title="Perham 2NW" alt="Perham 2NW" href="/station-info.html?station=114">
+     <area shape="rect" coords="644,221,674,227" title="Perley 6E" alt="Perley 6E" href="/station-info.html?station=3">
+     <area shape="rect" coords="443,58,469,64" title="Perth 7E" alt="Perth 7E" href="/station-info.html?station=163">
+     <area shape="rect" coords="524,212,563,218" title="Pillsbury 1N" alt="Pillsbury 1N" href="/station-info.html?station=64">
+     <area shape="rect" coords="724,239,768,245" title="Pine Point 2N" alt="Pine Point 2N" href="/station-info.html?station=115">
+     <area shape="rect" coords="245,153,277,159" title="Plaza 10S" alt="Plaza 10S" href="/station-info.html?station=67">
+     <area shape="rect" coords="574,240,617,246" title="Prosper 5NW" alt="Prosper 5NW" href="/station-info.html?station=44">
+     <area shape="rect" coords="207,110,254,116" title="Rat Lake 4NW" alt="Rat Lake 4NW" href="/station-info.html?station=133">
+     <area shape="rect" coords="160,85,183,91" title="Ray 4N" alt="Ray 4N" href="/station-info.html?station=106">
+     <area shape="rect" coords="27,41,69,47" title="Redstone 5E" alt="Redstone 5E" href="/station-info.html?station=100">
+     <area shape="rect" coords="812,369,844,375" title="Rice 4NW" alt="Rice 4NW" href="/station-info.html?station=121">
+     <area shape="rect" coords="393,219,446,225" title="Robinson 3NNW" alt="Robinson 3NNW" href="/station-info.html?station=45">
+     <area shape="rect" coords="420,35,447,41" title="Rolla 2S" alt="Rolla 2S" href="/station-info.html?station=46">
+     <area shape="rect" coords="720,56,760,62" title="Roseau 11S" alt="Roseau 11S" href="/station-info.html?station=61">
+     <area shape="rect" coords="225,96,251,102" title="Ross 4E" alt="Ross 4E" href="/station-info.html?station=66">
+     <area shape="rect" coords="384,90,417,96" title="Rugby 3W" alt="Rugby 3W" href="/station-info.html?station=74">
+     <area shape="rect" coords="656,262,689,268" title="Sabin 2NE" alt="Sabin 2NE" href="/station-info.html?station=60">
+     <area shape="rect" coords="296,134,330,140" title="Sawyer 7S" alt="Sawyer 7S" href="/station-info.html?station=125">
+     <area shape="rect" coords="59,165,98,171" title="Sidney 1NW" alt="Sidney 1NW" href="/station-info.html?station=8">
+     <area shape="rect" coords="536,63,598,69" title="St. Thomas 2WSW" alt="St. Thomas 2WSW" href="/station-info.html?station=47">
+     <area shape="rect" coords="771,306,805,312" title="Staples 2N" alt="Staples 2N" href="/station-info.html?station=122">
+     <area shape="rect" coords="387,243,425,249" title="Steele 5NW" alt="Steele 5NW" href="/station-info.html?station=108">
+     <area shape="rect" coords="638,81,680,87" title="Stephen 1NE" alt="Stephen 1NE" href="/station-info.html?station=5">
+     <area shape="rect" coords="525,320,560,326" title="Stirum 3NE" alt="Stirum 3NE" href="/station-info.html?station=152">
+     <area shape="rect" coords="423,273,466,279" title="Streeter 6NW" alt="Streeter 6NW" href="/station-info.html?station=48">
+     <area shape="rect" coords="395,256,435,262" title="Tappen 3NE" alt="Tappen 3NE" href="/station-info.html?station=68">
+     <area shape="rect" coords="314,176,362,182" title="Turtle Lake 4N" alt="Turtle Lake 4N" href="/station-info.html?station=50">
+     <area shape="rect" coords="661,235,694,241" title="Ulen 7ESE" alt="Ulen 7ESE" href="/station-info.html?station=91">
+     <area shape="rect" coords="738,296,778,302" title="Wadena 4W" alt="Wadena 4W" href="/station-info.html?station=117">
+     <area shape="rect" coords="603,309,647,315" title="Wahpeton 6N" alt="Wahpeton 6N" href="/station-info.html?station=63">
+     <area shape="rect" coords="490,33,523,39" title="Wales 1W" alt="Wales 1W" href="/station-info.html?station=150">
+     <area shape="rect" coords="639,114,680,120" title="Warren 6SW" alt="Warren 6SW" href="/station-info.html?station=6">
+     <area shape="rect" coords="141,153,192,159" title="Watford City 2E" alt="Watford City 2E" href="/station-info.html?station=52">
+     <area shape="rect" coords="671,194,709,200" title="Waukon 3S" alt="Waukon 3S" href="/station-info.html?station=92">
+     <area shape="rect" coords="488,88,527,94" title="Webster 2N" alt="Webster 2N" href="/station-info.html?station=112">
+     <area shape="rect" coords="204,192,238,198" title="Werner 6N" alt="Werner 6N" href="/station-info.html?station=131">
+     <area shape="rect" coords="746,377,776,383" title="Westport" alt="Westport" href="/station-info.html?station=123">
+     <area shape="rect" coords="756,44,794,50" title="Williams 6N" alt="Williams 6N" href="/station-info.html?station=95">
+     <area shape="rect" coords="112,119,156,125" title="Williston 5SW" alt="Williston 5SW" href="/station-info.html?station=53">
+     <area shape="rect" coords="412,322,448,328" title="Wishek 5W" alt="Wishek 5W" href="/station-info.html?station=57">
+     <area shape="rect" coords="415,72,450,78" title="Wolford 4E" alt="Wolford 4E" href="/station-info.html?station=149">
+     <area shape="rect" coords="650,290,693,296" title="Wolverton 2E" alt="Wolverton 2E" href="/station-info.html?station=148">
+     <area shape="rect" coords="408,345,448,351" title="Zeeland 7NE" alt="Zeeland 7NE" href="/station-info.html?station=110">
+    </map>
+    <div style="height:461px" id="map-activity">
+     <div>
+      <p>Loading</p>
+      <p><img alt="loading map" src="/activity.gif"></p>
+     </div>
+    </div>
+    <p data-src="/map.png?mtype=pd&amp;type=s&amp;c=n&amp;begin_date=2021-10-04&amp;end_date=2021-10-04" data-usemap="#station-map" id="map-holder" style="height:461px"></p>
+    <div id="front-key">
+     <div id="left"><span>Map key:</span> Station Name 9S = 9 Miles South of Town</div>
+     <div id="right">Click on a station for more info</div>
+    </div>
+    <div id="front-announce"><a href="/current.html">Current weather</a> is now available for <em>all</em> NDAWN stations!</div>
+    <div id="front-buttons">
+     <div id="front-button-left">
+      <form action="/">
+       <input name="date" type="hidden" value="2021-10-03">
+100 26461    0 26461    0     0  65581      0 --:--:-- --:--:-- --:--:-- 65660   <button id="prevdate"><span class="ui-icon ui-icon-triangle-1-w"></span>Previous day</button>
+      </form>
+     </div>
+     <div id="front-button-right">
+      <button disabled id="nextdate">Next day<span class="ui-icon ui-icon-triangle-1-e"></span></button>
+     </div>
+    </div>
+    <div id="front-links">
+     <p id="front-var-intro">Select Weather Variable for 2021-10-04:</p>
+     <div class="var new-row"><a href="/">Stations</a></div>
+     <div class="var"><a href="/wind-speeds.html">Wind Speed</a></div>
+     <div class="var"><a href="/solar-radiation.html">Solar Radiation</a></div>
+     <div class="var new-row"><a href="/temperatures.html">Air Temp: Max/Min</a></div>
+     <div class="var"><a href="/wind-directions.html">Wind Direction</a></div>
+     <div class="var"><a href="/relative-humidity.html">Relative Humidity</a></div>
+     <div class="var new-row"><a href="/average-temperatures.html">Air Temp: Avg</a></div>
+     <div class="var"><a href="/wind-chills.html">Wind Chill</a></div>
+     <div class="var"><a href="/dew-point.html">Dew Point</a></div>
+     <div class="var new-row"><a href="/soil-temps.html">Soil Temp: Avg</a></div>
+     <div class="var"><a href="/rainfall.html">Rainfall</a></div>
+     <div class="var"><a href="/potentialet.html">Potential ET</a></div>
+    </div>
+   </div>
+  </div>
+  <div class="printhide" id ="footer">
+   <p><a href="/help-overview.html">About NDAWN</a><span class="bullets">&bull; &bull; &bull;</span><span><a href="https://www.twitter.com/NDAWNmesonet"><img alt="" height="11" width="14" src="/twitter.png">@NDAWNmesonet</a></span><span class="bullets">&bull; &bull; &bull;</span><a href="/help-overview.html#disclaimer">Disclaimer</a></p>
+   <p id="footer-mesonet">NDAWN: The North Dakota Mesonet</p>
+   <p id="footer-copyright">Copyright &copy; 2000-2021 North Dakota State University</p>
+  </div>
+ </body>
+</html>
+
+
+rosem@DESKTOP-L5MSUA0 MINGW64 ~
+$
